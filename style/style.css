@@ -7,12 +7,11 @@ font-family: 'Raleway Dots', ;
 
 body{
     margin:0;
+    background-image:url(../img/background.jpg);
+    background-size: contain;
 }
 
 .top{
-    background-image:url(../img/background-top.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position-y: -135px;
     width:100%;
     height:20vh;
@@ -23,11 +22,7 @@ body{
 }
 
 .bottom{
-    background-image:url(../img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     width:100%;
-    height:200vh;
 }
 
 #panopub{
@@ -135,10 +130,14 @@ a:hover{
 }
 
 .insert{
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height:auto;
+    bottom:0px;
+    left:0px;
+    position: fixed;
     box-shadow: 0px 0px 50px rgb(0, 0, 0);
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
@@ -169,27 +168,3 @@ a:hover{
     margin:0 auto;
     margin-bottom: 20px;
 }
-
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
-
-    .bottom{
-        height:80vh;
-    }
-
-  }
-
-  @media screen and (min-width: 425px) and (max-width: 768px) {
-
-    .bottom{
-        height:140vh;
-    }
-
-  }
-
-  @media screen and (min-width: 375px) and (max-width: 425px) {
-
-    .bottom{
-        height:150vh;
-    }
-
-  }
