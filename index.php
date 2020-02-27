@@ -33,13 +33,13 @@
 
     <div class="row">
 
-        <div class="col-sm-6 left">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 left">
 
         <div id="button">GÉNÉRER</div>
 
         </div>
 
-        <div class="col-sm-6 right">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 right">
 
         <div id="citation">
 
